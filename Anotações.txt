@@ -1,1 +1,23 @@
-c://xampp/htdocs
+Pasta: c://xampp/htdocs
+----------------------------------------------------
+link: http://localhost/cursophp/
+----------------------------------------------------
+Tag:
+<?php 
+
+?>
+----------------------------------------------------
+Para declarar uma variavel colocar o '$'
+	- Ex: $nome = 'Andrew'
+----------------------------------------------------
+Para definir o horario e data do Brasil:
+     date_default_timezone_set("America/Sao_Paulo");
+Data: date("d/M/Y");
+Hora: date("G:i:s T");
+
+Ex:
+<?php                 date_default_timezone_set("America/Sao_Paulo");
+echo "Hoje é dia " . date("d/M/Y");
+echo " e agora são " . date("G:i:s T");
+?>
+----------------------------------------------------
