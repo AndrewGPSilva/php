@@ -21,3 +21,25 @@ echo "Hoje é dia " . date("d/M/Y");
 echo " e agora são " . date("G:i:s T");
 ?>
 ----------------------------------------------------
+Strings:
+
+Single Quoted (Aspas simples) = ex: "php \u{1f418}" retorna php \u{1f418}, ele não converte o valor!
+
+Double Quoted (Aspas duplas) = ex: "php \u{1f418}" retorna php e o emoji.
+
+Heredoc = 
+Nowdoc = 
+
+Operador de Concatenação = .
+
+Para chamar uma constante colocar . (nome_da_const)
+	ex: "o usuario " . NOME;
+
+\n nova linha
+\t tabulação horizontal
+\\ barra invertida
+\$ sinal de cifrão
+
+Para colocar algo entre aspas no meio da frase:
+echo "O úsuario $nome tem um apelido \"Gon\" e sobrenome: $sobrenome";
+
