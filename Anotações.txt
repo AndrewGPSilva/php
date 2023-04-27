@@ -21,25 +21,22 @@ echo "Hoje é dia " . date("d/M/Y");
 echo " e agora são " . date("G:i:s T");
 ?>
 ----------------------------------------------------
-Strings:
+Condições:
 
-Single Quoted (Aspas simples) = ex: "php \u{1f418}" retorna php \u{1f418}, ele não converte o valor!
+Em php pode se usar a palavra "or" como uma condição OU e "and" para E. De resto é igual a tudo;
 
-Double Quoted (Aspas duplas) = ex: "php \u{1f418}" retorna php e o emoji.
+and / &&
+or / ||
+> maior
+< menor
+>= maior igual
+<= menor igual
 
-Heredoc = 
-Nowdoc = 
+Os operadores de comparação (<, >, ==, !=) têm a mesma precedência, logo, serão avaliados da esquerda para direita.
+----------------------------------------------------
+else if
+----------------------------------------------------
+Operador Ternário:
+$idade < 18 ? 'Você é menor de idade' : 'Você é maior de idade';
 
-Operador de Concatenação = .
-
-Para chamar uma constante colocar . (nome_da_const)
-	ex: "o usuario " . NOME;
-
-\n nova linha
-\t tabulação horizontal
-\\ barra invertida
-\$ sinal de cifrão
-
-Para colocar algo entre aspas no meio da frase:
-echo "O úsuario $nome tem um apelido \"Gon\" e sobrenome: $sobrenome";
-
+Condição ? Execução caso seja true : Execução caso seja falso
