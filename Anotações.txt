@@ -39,4 +39,44 @@ else if
 Operador Ternário:
 $idade < 18 ? 'Você é menor de idade' : 'Você é maior de idade';
 
-Condição ? Execução caso seja true : Execução caso seja falso
+Condição ? Execução caso seja true : Execução caso seja falso.
+----------------------------------------------------
+Expressões Aritméticas
+
+Ordem de precendência
+
+() modificadores
+** potencia
+* multiplicação /  / divisão / % modulo 
++ - adição / subtração 
+
+Caso tenha Parenteses, a ordem muda, o que está dentro dos parenteses é feito primeiro!
+----------------------------------------------------
+Funções Aritméticas
+
+abs() = valor absoluto
+ex: abs(500) = 500 abs(-2000) = 2000
+	Retira o sinal;
+
+base_convert() = conversão de base;
+
+ceil(), floor(), round() = teto, chão, ao redor. 
+
+hypot() = hipotenusa
+
+intdiv() = numero inteiro da divisão
+
+min() , max() = maximo e minimo
+
+pi() = pi
+
+pow() = potencia
+
+sin() cos() tan() = seno, cosseno, tangente
+
+sqrt() = raiz quadrada
+----------------------------------------------------
+Operadores Aritméticos
+
+"2" + "2" = 4 inteiro, em php faz a soma!
+----------------------------------------------------
