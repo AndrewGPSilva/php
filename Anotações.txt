@@ -80,3 +80,23 @@ Operadores Aritméticos
 
 "2" + "2" = 4 inteiro, em php faz a soma!
 ----------------------------------------------------
+Para voltar a pagina anterior:
+
+onclick="javascript:window.location.href='index.html'
+----------------------------------------------------
+Para gerar números aleatório em PHP:
+
+rand()
+	rand(min, max);
+Obs: O numero maximo não tem que ser maior que do minimo.
+
+mt_rand()
+	mt_rand(min, max);]
+Obs: O numero maximo tem que ser maior que do minimo.
+
+random_int()
+	random_int(min, max)
+Obs: Números aleatórios criptografados!
+     Mais lento que os outros.
+----------------------------------------------------
+
