@@ -1,6 +1,8 @@
-const btn = document.querySelector("#btn")
-const teste = document.querySelector("#teste")
+const btn = document.getElementById("btn")
+const q1 = document.getElementById("q1")
+const q2 = document.getElementById("q2")
 
-btn.addEventListener('click', () => {
-    teste.style.background = 'red';
+btn.addEventListener('click', clicar() {
+    q2.style.display == 'block';
 })
+
