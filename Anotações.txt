@@ -110,3 +110,11 @@ possui um índice que por padrão começa com 0 (zero)
 para acessar todos os elementos podemos usar uma estrutura de repetição
 para saber quantos elementos um array tem existe a função count()
 ----------------------------------------------------
+
+$lista[] = $item;
+	Com esta sintaxe, o PHP adicionará o item no próximo índice NUMÉRICO disponível.
+
+$lista[$chave] = $item;
+	 Para adicionar um item informando seu índice, esta forma funciona perfeitamente.
+
+-----------------------------------------------------
