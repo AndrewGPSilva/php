@@ -118,3 +118,24 @@ $lista[$chave] = $item;
 	 Para adicionar um item informando seu índice, esta forma funciona perfeitamente.
 
 -----------------------------------------------------
+
+Um exemplo de array associativo:
+	
+	<?php
+	$contas = array(
+		'suporte' => 'Andrew',
+		'cpt' => 'Israel',
+		'rush' => 'Eduardo',
+		'granadeiro' => 'Luiz');
+		
+	$contas['reserva1'] = ('Mazzo');
+	$contas['reserva2'] = ('Cardoso');
+	$contas['reserva3'] = ('Lazin');
+	
+	foreach ($contas as $jogadores => $line) {
+		echo "O jogador " . $line . " é o " . 				$jogadores . '!' .PHP_EOL;
+	}
+	?>
+
+-----------------------------------------------------
+
